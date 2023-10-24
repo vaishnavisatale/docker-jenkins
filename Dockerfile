@@ -1,4 +1,4 @@
 FROM openjdk:17
 EXPOSE  8080
-ADD target/docker-demo.jar docker-demo.jar
-ENTRYPOINT ["java", "-jar", "/docker-demo.jar"]
+ADD target/docker-jenkins.jar docker-jenkins.jar
+ENTRYPOINT ["java", "-jar", "/docker-jenkins.jar"]
